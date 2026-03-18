@@ -1,4 +1,5 @@
 # Reddy
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -155,8 +156,8 @@ let i = 0;
 // 🔐 Unlock
 function unlock() {
     let pass = document.getElementById("pass").value;
-    if (pass === "reddy") {
-        document.getElementById("secretMessage").style.display = "block";
+    if (pass === "REDDY") {
+        document.getElementById("I love you forever and ever, beyond time, beyond words ❤️").style.display = "block";
     } else {
         alert("Wrong password 😢");
     }
